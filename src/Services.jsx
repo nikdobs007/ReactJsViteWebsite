@@ -12,7 +12,7 @@ const Services = () => {
       <h2 className='common-heading'>Our Services</h2>
       <div className="container grid grid-three-column">
         {
-          services.map((curElem) => {
+          services.slice(0, 6).map((curElem) => {
             const { id, title, description, thumbnail } = curElem;
             return (
               <div key={id} className="card">
