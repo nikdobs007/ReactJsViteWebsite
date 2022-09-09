@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/">
-        <img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark-700x235.png" alt="logo" className='logo'/>
+        <img src="./images/React_logo.png" alt="logo" className='logo'/>
       </NavLink>
       <Navbar />
     </MainHeader>
@@ -22,8 +22,7 @@ const MainHeader =  styled.header`
   justify-content: space-between;
   align-items: center;
   .logo {
-    height: auto;
-    max-width: 25%;
+    height: 65px;
   }
 `
 export default Header
